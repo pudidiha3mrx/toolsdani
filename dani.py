@@ -3,13 +3,14 @@ import socket
 import threading
 import time
 import os
+import sys
 
-os.system("cls")
+os.system("clear")
 #login tools
 password ="DANI"
 
 for i in range(3):
-	pwd = input("[•] Account : ")
+	pwd = input("[•] password : ")
 	j=3
 	if(pwd==password):
 		time.sleep(5)
